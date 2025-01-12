@@ -272,3 +272,36 @@ nav img {
 #section4 button:hover{
     transform: scale(1.1);
 }
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer ul{
+    list-style: none;
+    display: flex;
+}
+#footer ul li {
+    padding-left: 20px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: dimgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+#footer ul li a:hover{
+    transform: scale(1.1);
+    color: aqua;
+}
+
+#footer h6{
+    color: dimgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
